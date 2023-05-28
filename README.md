@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# Todo App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Todo App built with React. It allows users to manage their tasks by adding new tasks, marking tasks as complete, and filtering tasks based on their status. The app also provides the ability to store the tasks locally, so the progress is preserved even after refreshing the page.
 
-## Available Scripts
+### Features
 
-In the project directory, you can run:
+- Add a new task: Users can enter task details and add them to the list.
 
-### `npm start`
+- Complete a task: Users can mark a task as complete by clicking on the checkbox.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Filter tasks: Users can toggle between "All," "Active," and "Completed" tabs to view tasks based on their status.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Remove tasks: Under the "Completed" tab, users can remove individual tasks by clicking on the delete icon or remove all completed tasks at once.
 
-### `npm test`
+### Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: A JavaScript library for building user interfaces.
 
-### `npm run build`
+- React Icons: A library that provides a collection of popular icons as React components.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting Started
+To get a local copy of the project up and running, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+ 
+ `git clone https://github.com/Ibinola/todo-app`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Navigate to the project directory:
 
-### `npm run eject`
+`cd todo-app`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. Install the dependencies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+`npm install`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+`npm start`
 
-## Learn More
+5. Open your browser and visit http://localhost:3000 to see the app in action.
+## Usage
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Enter a task in the input field and click the "Add" button to add it to the list.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Click the checkbox next to a task to mark it as complete.
 
-### Code Splitting
+- Use the tabs at the top to filter tasks based on their status ("All," "Active," "Completed").
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Under the "Completed" tab, click the delete icon to remove an individual task or click the "Clear Completed" button to remove all completed tasks.
 
-### Analyzing the Bundle Size
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+The project is licensed under the MLT License
 
-### Making a Progressive Web App
+### Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Icons provided by [React Icons](https://react-icons.github.io/react-icons/)
